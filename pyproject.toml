@@ -1,0 +1,8 @@
+[project]
+name = "trabalho-n2-biblioteca"
+version = "0.1.0"
+description = "Projeto de exemplo para o Trabalho N2 - Biblioteca"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

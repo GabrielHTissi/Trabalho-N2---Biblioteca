@@ -1,0 +1,6 @@
+__pycache__/
+htmlcov/
+coverage.xml
+*.pyc
+.env
+.venv
