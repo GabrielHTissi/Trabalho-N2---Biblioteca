@@ -24,3 +24,6 @@
 ## Limites conhecidos
 - Regras simples: tarifa fixa por dia; não há policy de grace period; não há persistência real.
 - Gateway de pagamento é simulado; para testes E2E com pagamento real substituir por adapter.
+
+## INTEGRANTES: 
+-GABRIEL TISSI, LUAN FERREIRA DO AMARAL, BRUNO ROVANI MARCELINO, FELIPE DOS SANTOS, BRUNO SCHIMIGUEL, RENAN GABRIEL PIECHONTCOSKI, ERICK ANDREAS PONTICELLI.
