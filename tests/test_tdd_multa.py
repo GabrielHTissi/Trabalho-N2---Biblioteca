@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 import pytest
 
-from src.library_service import MULTA_POR_DIA
+from library_service import MULTA_POR_DIA
 
 def test_calcular_multa_zero_dias(service, tmp_clock):
     previs = tmp_clock.now()

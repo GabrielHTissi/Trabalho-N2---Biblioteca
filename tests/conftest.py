@@ -1,11 +1,11 @@
 import pytest
 from datetime import datetime, timedelta
-from src.repository import InMemoryLivroRepository, InMemoryUsuarioRepository, InMemoryEmprestimoRepository
-from src.clock import StubClock
-from src.email import StubEmailService
-from src.gateway import MockGatewayPagamento
-from src.library_service import LibraryService
-from src.models import Livro, Usuario
+from repository import InMemoryLivroRepository, InMemoryUsuarioRepository, InMemoryEmprestimoRepository
+from clock import StubClock
+from email import StubEmailService
+from gateway import MockGatewayPagamento
+from library_service import LibraryService
+from models import Livro, Usuario
 
 @pytest.fixture
 def tmp_clock():

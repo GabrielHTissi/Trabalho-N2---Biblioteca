@@ -1,5 +1,5 @@
 from typing import Dict, List
-from .models import Livro, Usuario, Emprestimo
+from models import Livro, Usuario, Emprestimo
 
 class InMemoryLivroRepository:
     def __init__(self):
